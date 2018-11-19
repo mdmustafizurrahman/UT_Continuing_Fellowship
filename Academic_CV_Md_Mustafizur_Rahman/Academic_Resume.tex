@@ -1,0 +1,571 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[11pt]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\usepackage{hyperref}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+\usepackage{verbatim}
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headsep}{24pt}  % space between header and text
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+\rhead{ {\it Md Mustafizur Rahman }\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-0.5in % start text higher on the page
+
+\begin{document}
+\thispagestyle{empty} % this page has no header
+\name{Md Mustafizur Rahman\\[12pt]}% the \\[12pt] adds a blank line after name
+
+\address{\\ School of Information \\
+  University of Texas at Austin \\  1616 Guadalupe Ste 5.202 \\ Austin, TX 78701 \\ {\bf Email}: \href{mailto:nahid@utexas.edu}{nahid@utexas.edu}
+  \\ {\bf Website}: \url{https://www.ischool.utexas.edu/~nahid/}
+  \\ {\bf Google Scholar}: 
+  \url{https://scholar.google.com/citations?user=-Lae4twAAAAJ&hl} 
+  }
+\begin{comment}
+
+
+  \\ LinkedIn: \urlstyle{same}\url{https://www.linkedin.com/in/nahidcse05} 
+  \\ Github: \urlstyle{same}\url{https://github.com/mdmustafizurrahman}
+  \\ Number of Scholarly Publications: 24
+  \\ Citation Count: 120
+  \\ Country of Citizenship: Bangladesh
+  \\ First date of entry to USA: August 16, 2014
+  \\ Current Visa Status: F-1 
+  \\ Current I-20 expire date: May 31, 2021
+ \end{comment}
+
+  
+
+\address{{\bf } \\ }
+
+
+\begin{resume}
+\section{RESEARCH INTERESTS}
+Information Retrieval, Machine Learning
+
+
+\section{EDUCATION}
+{\sl Ph.D. in  Information Studies (in progress)}\\
+University of Texas at Austin, TX 78712 \hspace{1.45in} GPA 3.86 \hfill  August 2016 - present\\
+Area - Information Retrieval\\
+Adviser - Dr. Matthew Lease
+
+
+{\sl Master of Computer Science}\\
+University of Virginia, VA 22903 \hspace{2.00in} GPA 3.72\hfill  May 2016\\
+Area - Text Mining\\
+Thesis - Hidden Topic Sentiment Model\\
+Adviser - Dr. Hongning Wang
+
+{\sl Master of Science in Computer Science \& Engineering} \\
+Bangladesh University of Engineering \& Technology, Dhaka \hspace{0.2in}  GPA 3.83 \hfill August 2013 \\
+Area - Machine Learning\\
+Thesis - Forecasting Time Series - An Ensemble based approach\\
+Adviser - Dr. Md. Monirul Islam
+
+{\sl Bachelor of Science in Computer Science \& Engineering} \\
+Bangladesh University of Engineering \& Technology, Dhaka \hspace{0.2in}  GPA 3.95 \hfill February 2011 \\
+Area - Sensor Network\\
+Thesis - Detecting Cuts in Wireless Sensor Network \\
+Adviser - Dr. Masud Hasan and Dr. Mahmuda Naznin
+
+\vspace{0.05in}
+\section{RESEARCH EXPERIENCE}
+%\vspace{8pt}
+
+{\sl Graduate Research Assistant} \hfill        September 2016  - present \\
+School of Information\\
+University of Texas at Austin\\
+Adviser - Dr. Matthew Lease \\
+Topic - Information Retrieval
+
+\begin{itemize} \itemsep -2pt 
+\item{Efficient Test Collection Construction via Active Learning.} {(under revision)} 
+\item{Constructing Test Collections using Multi-armed Bandits and Active Learning.} {(under review)}
+\item{Co-Training for Neural Network Modeling under Low Supervision} {- Developed a Co-Training approach which bootstraps the neural model using one or more simpler learning models and a pool of unlabeled data.}
+\item{Answer Selection in Non-factoid Question Answering using Deep Learning}
+          {- Developed a Convolutional Neural Network (CNN) based approach for non-factoid question answering.}
+\end{itemize}
+
+
+{\sl PhD Research Intern} \hfill    May 2018 - August 2018\\
+Samsung Research America\\
+Mountain View, CA \\
+Adviser - Hongxia Jin \\
+Topic - Open Domain Question Answering using Wikipedia
+\begin{itemize} \itemsep -2pt
+    \item Developed a context related question answering system for Samsung {\it Bixby} using a reading comprehension model and a learning to rank model
+\end{itemize}
+}
+
+
+{\sl Applied Machine Learning Intern} \hfill    June 2017 - August 2017\\
+Los Alamos National Laboratory\\
+Los Alamos, NM \\
+Adviser - Sunil Thulasidasan \\
+Topic - Semi-supervised Deep Learning for Understanding Cancer Pathology Reports
+\begin{itemize} \itemsep -2pt % reduce space between items
+
+    \item Developed a semi-supervised graph-based deep learning model that leverages both labeled and unlabeled data points.
+    \item Extracted clinical information from cancer pathology reports for automatic cancer type and site detection.
+    \item Pre-processed cancer pathology reports by performing the sentence boundary disambiguation using a Maximum Entropy model and a Bi-directional LSTM deep model.
+
+\end{itemize}
+
+{\sl Graduate Research Assistant} \hfill        June 2015 - August 2015 \\
+Department of Computer Science\\
+University of Virginia\\
+Adviser - Dr. Hongning Wang \\
+Topic - Computational User Behavior Modelling
+
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Implemented several probabilistic topic models including 2-topic mixture model, probabilistic latent semantic analysis (pLSA), hidden topic markov model (HTMM).
+   \item Developed a Hidden Markov Model based generative model to capture users' sentiments along with topics.
+\end{itemize}
+
+{\sl  Graduate Researcher}  \hfill  April 2012 - August 2013 \\
+Department of Computer Science \& Engineering\\
+Bangladesh University of Engineering \& Technology\\
+Adviser - Dr. Md. Monirul Islam \\
+Topic - Ensemble based approach for time series forecasting
+ \begin{itemize} \itemsep -2pt
+  \item  Developed a novel layered ensemble architecture for time series forecasting.
+\end{itemize} \vspace{-6pt}
+
+\vspace{0.1in}
+
+\section{SELECTED PUBLICATIONS}
+\vspace{-2pt}
+
+{\large \bf Work in progress} 
+\vspace{2pt}
+\begin{enumerate} \itemsep -2pt
+\item \textbf{Md Mustafizur Rahman}, Mucahid Kutlu, Tamer Elsayed, and Matthew Lease, ``Efficient Test Collection Construction via Active Learning'', under revision in the {\it Journal of the Association for Information Science and Technology (JASIS\&T)} 
+
+\item \textbf{Md Mustafizur Rahman}, Mucahid Kutlu, and Matthew Lease,``Constructing Test Collections using Multi-armed Bandits and Active Learning'', under review in {\it The Web Conference (WWW 2019)}  
+
+\end{enumerate}
+
+
+{\large \bf Journal}  ({\sl \textbf{Work done at UT Austin, Texas}})
+\begin{enumerate} \itemsep -2pt
+
+ \item Kezban Dilek Onal, Ye Zhang, Ismail Sengor Altingovde, \textbf{Md Mustafizur Rahman}, Pinar Karagoz, Alex Braylan, Brandon Dang, Heng-Lu Chang, Henna Kim, Quinten McNamara, Aaron Angert, Edward Banner, Vivek Khetan, Tyler McDonnell, An Thanh Nguyen, Dan Xu, Byron C. Wallace, Maarten de Rijke, and Matthew Lease. ``Neural Information Retrieval: At the End of the Early Years''. {\it Information Retrieval Journal}, June 2018. Springer.\\ %[Online]. Available: \urlstyle{same}\url{https://link.springer.com/article/10.1007\%2Fs10791-017-9321-y}
+\end{enumerate}
+
+
+{\large \bf Journal} ({\sl \textbf{Work done at BUET, Bangladesh}})
+\begin{enumerate} \itemsep -2pt
+ \item {\bf Md Mustafizur Rahman}, Md. Monirul Islam, Kaziyuki Murase and Xin Yao. ``Layered Ensemble Architecture for Time Series Forecasting''. {\it IEEE transaction on Systems, Man & Cybernetics}, 46(1): 270 - 283, January 2016. (\textbf{Impact Factor: 7.38}) %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/TCYB.2015.2401038}
+ 
+ \item Mohammad Raihanul Islam, {\bf Md. Mustafizur Rahman}, Asif Salekin, and Ahmed Shayer Andalib, ``A Novel Approach for Generating Clustered Based Ensemble of Classifiers,'' {\it International Journal of Machine Learning and Computing}, vol. 3, no. 1, pp. 137-141, 2013. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.7763/IJMLC.2013.V3.288}
+
+ \item {\bf Md Mustafizur Rahman}, S. M. Ferdous, Syed Ishtiaque Ahmed, and Anika Anwar, ``Speech Development of Autistic Children by Interactive Computer Games,'' {\it Interactive Technology and Smart Education (ITSE)}, Emerald, vol. 8, no. 4, pp. 208 - 223, 2011. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1108/17415651111189450}
+
+\end{enumerate}
+
+{\large \bf Conference Proceedings}\\
+\vspace{2pt}
+\noindent\textbf{\textit{Long Paper}} ({\sl \textbf{Work done at University of Virginia, VA}})
+\begin{enumerate} \itemsep -2pt
+
+    
+    \item {\bf Md Mustafizur Rahman} and Hongning Wang. ``Hidden Topic Sentiment Model''. In {\it Proceedings of the 25th International World Wide Web conference (WWW 2016)}, ACM, Montréal, Québec, Canada, pp. 155 - 165, April 2016. (\textbf{Acceptance Rate: 16\%}) %[Online]. Available: \urlstyle{same}\url{http://dl.acm.org/citation.cfm?id=2883072} 
+\end{enumerate}
+\textbf{\textit{Long Papers}} ({\sl \textbf{Work done at BUET, Bangladesh}})
+  
+\begin{enumerate}
+
+    \item S. M. Ferdous, {\bf Md Mustafizur Rahman}, and Mahmuda Naznin. ``Finding Network Connectivity Failure in a Wireless Sensor Network''. In {\it Proceedings of the IFIP/IEEE Wireless Days}, IEEE, France, pp. 299 - 304, March 2016. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/WD.2016.7461522}
+    
+    \item {\bf Md Mustafizur Rahman}, S. K. K. Santu, Md. Monirul Islam, and Kazuyuki Murase. ``Forecasting Time Series - A Layered Ensemble Architecture''. In {\it Proceedings of the International Joint Conference on Neural Networks (IJCNN 2014)}, IEEE, Beijing, China, pp. 210 - 217, July 2014. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/IJCNN.2014.6889682}
+    
+    \item S. K. K. Santu, {\bf Md Mustafizur Rahman}, Md. Monirul Islam, and Kazuyuki Murase. ``Towards better generalization in Pittsburgh Learning Classifier Systems''. In {\it Proceedings of the IEEE World Congress on Computational Intelligence (CEC 2014)}, IEEE, Beijing, China, pp. 1666 - 1673, July 2014. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/CEC.2014.6900388}
+    
+    \item Nashid Shahriar, Mahfuza Sharmin, Reaz Ahmed, {\bf Md Mustafizur
+    Rahman}, Raouf  Boutaba, and  Bertrand  Mathieu. ``Diurnal Availability for Peer-to-Peer
+    Systems''. In {\it Proceedings of the IEEE Consumer Communications and Networking Conference (CCNC)}, Las Vegas, NV, USA, pp. 619 - 623, January 2012. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/CCNC.2012.6181140}
+
+    \item S.  M.  Ferdous,  Anindya  Das,  M.  Sohel  Rahman, and  {\bf Md
+    Mustafizur  Rahman}. ``An Ant Colony Optimization approach to solve the
+    Minimum  String Cover Problem". In {\it Proceedings of the International Conference on Informatics, Electronics & Vision (ICIEV)}, Dhaka, pp. 741-746, May 2012. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/ICIEV.2012.6317422}
+    
+    \item  Azad Abdus Salam, Md. Kamrul Hasan, M.Arif Imtiazur Rahman, {\bf Md Mustafizur Rahman}, and Nashid Shahriar. ``Changing trends of climate in Bangladesh and a noble procedure of distribution of rainfall by clustering''. In {\it Proceeding of the International Conference on Statistical Data Mining for Bioinformatics Health Agriculture and Environment}, Rajshahi, Bangladesh, pp. 405 - 411, December 2012. ISBN: 978-984-33-5876-9.
+    
+    
+    \item  Arshia Zernab Hassan, Bushra Tasnim Zahed, Fatema Tuz Zohora, Johra Muhammad Moosa, Tasmiha Salam, and {\bf Md Mustafizur Rahman}. ``Developing the Concept of Money by Interactive Computer Games for Autistic Children''. In {\it Proceedings of the IEEE Symposium on Multimedia}, IEEE Computer Society Press, California, USA, pp. 559 - 564, December 2011. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/ISM.2011.99}
+    
+    \item {\bf Md Mustafizur Rahman}, S. M. Ferdous, and Syed Ishtiaque Ahmed. ``Increasing intelligibility in the speech of the autistic children by an interactive computer game''. In {\it Proceedings of the IEEE Symposium on Multimedia}, IEEE Computer Society Press, Taiwan, China, pp. 383-387, December 2010. %[Online]. Available: \urlstyle{same}\url{http://doi.ieeecomputersociety.org/10.1109/ISM.2010.64}
+    
+    
+\end{enumerate}    
+
+
+\textbf{\textit{Short Papers}} ({\sl \textbf{Work done at BUET, Bangladesh}})
+\begin{enumerate} \itemsep -2pt    
+
+    \item  Sajedul Karim Talukder, M. I. I. Sakib, and {\bf Md Mustafizur Rahman}. ``Model for E-Government in Bangladesh: A Unique ID Based Approach''. In {\it Proceedings of the International Conference on Informatics, Electronics & Vision (ICIEV)}, Dhaka, Bangladesh, May 2014. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/ICIEV.2014.7136000}
+    
+    \item Sajedul Karim Talukder, M. I. I. Sakib, and {\bf Md Mustafizur Rahman}. ``Digital Land Management System: A new initiative for Bangladesh''. In {\it Proceedings of the International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT)}, Dhaka, Bangladesh, April 2014. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/ICEEICT.2014.6919031}
+    
+    \item  K.M.A. Solaiman, {\bf Md Mustafizur Rahman}, and Nashid Shahriar.
+    ``AVRA Bangladesh collection, analysis \& visualization of road accident
+    data in Bangladesh''. In {\it Proceedings of the International Conference on Informatics, Electronics \& Vision (ICIEV)}, IEEE, Dhaka, Bangladesh, May 2013. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/ICIEV.2013.6572632}
+    
+    \item  Asif Salekin, {\bf Md Mustafizur Rahman} and Shihab Hasan Chowdhury.
+    ``Pattern matching in time series using combination of neural  network and
+    rule based approach''. In {\it Proceedings of the 7th International
+    Conference  on  Electrical  \& Computer Engineering (ICECE 2012)},  Dhaka,
+    Bangladesh, pp. 478 - 481, December 2012. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/ICECE.2012.6471591}
+
+    \item  Asif Salekin, {\bf Md Mustafizur Rahman}, and Raihanul Islam.
+    ``Composite Pattern Matching in Time Series''. In {\it Proceedings of the
+    15th International Conference on Computer \& Information Technology (ICCIT 2012)},
+    Chittagong, Bangladesh, December 2012. %[Online].\\Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/ICCITechn.2012.6509784}
+
+    
+\end{enumerate}   
+
+
+\textbf{\textit{Poster Presentation}} ({\sl \textbf{Work done at UT Austin, TX}})
+\begin{enumerate} \itemsep -2pt    
+
+    \item Malay Bhattacharyya, Yoshihiko Suhara, \textbf{Md Mustafizur Rahman}, and Markus Krause. ``Possible Confounds in Word-based Semantic Similarity Test Data''. In {\it Proceedings of the 20th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2017)}, ACM, Portland, OR, USA, pp. 147 - 150, February 2017. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1145/3022198.3026357} 
+\end{enumerate}
+\textbf{\textit{Poster Presentations}} ({\sl \textbf{Work done at BUET, Bangladesh}})   
+
+\begin{enumerate}
+
+
+    \item Mohammad Raihanul Islam, {\bf Md Mustafizur Rahman}, Asif Salekin, Shihab Hasan Chowdhury, and Samiul Alam Anik. ``A
+    Novel Clustering-Based Ensemble Classification Model for Block Learning''.
+    In {\it Proceedings of the 2nd International Conference on Pattern
+    Recognition Applications and Methods (ICPRAM 2013)}, Barcelona, Spain, pp. 285 - 288, February 2013.
+    
+    
+    \item Mirfat Akter Sharmin, Md. Mizanur Rahman, Syed Ishtiaque Ahmed, {\bf Md Mustafizur Rahman}, and S. M. Ferdous. ``Teaching intelligible speech to the Autistic children by interactive computer games''. In {\it Proceedings of the ACM Symposium on Applied Computing}, ACM Press, Taiwan, China, pp. 1208 - 1209, March 2011. %[Online] Available: \urlstyle{same}\url{http://dx.doi.org/10.1145/1982185.1982450}
+    
+    \item Anika Anwar, {\bf Md Mustafizur Rahman}, S. M. Ferdous, Samiul Alam Anik, and Syed Ishtiaque Ahmed. ``A Computer Game based Approach for Increasing Fluency in the Speech of the Autistic Children''. In {\it Proceedings of the IEEE International Conference on Advanced Learning Technologies}, IEEE Computer Society Press, Athens, Georgia, USA, pp. 17 - 18, July 2011. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1109/ICALT.2011.13}
+\end{enumerate}   
+
+
+{\large \bf Book Chapter} ({\sl \textbf{Work done at BUET, Bangladesh}})
+\vspace{2pt}
+\begin{enumerate} \itemsep -2pt
+\item Abdus Salam Azad, Md. Kamrul Hasan, M. Arif Imtiazur Rahman, {\bf Md. Mustafizur Rahman}, and Nashid Shahria. ``Exploring the Behavior and Changing Trends of Rainfall and Temperature Using Statistical Computing Techniques''. {\it Computational Intelligence Techniques in Earth and Environmental Sciences}, Springer, pp. 53 - 78, January 2014. %[Online]. Available: \urlstyle{same}\url{http://dx.doi.org/10.1007/978-94-017-8642-3_3}
+\end{enumerate}
+
+
+\begin{comment} \itemsep -2pt 
+
+ \item  Arshia Zernab Hassan, Bushra Tasnim Zahed, Fatema Tuz Zohora, Johra Muhammad Moosa, Tasmiha Salam, {\bf Md Mustafizur Rahman}, Hasan Shahid Ferdous, and Syed Ishtiaque Ahmed. ``Socializing Autistic Children with Interactive Computer Games''. In Proceedings of the IEEE Newsletter on Learning Technologies, Vol. 13, Issue 4, pp. 62 - 65, October 2011.
+    
+    \item  Ali S. Sabbir, Khosru Md. Salim, Md. Raihan B. Rafique, M Omar Rahman, {\bf Md Mustafizur Rahman}, Md. Hasanuzzaman Bhuiyan, Hasan S. Ferdous, and Syed I. Ahmed. ``Birth Record Communicator: A Pathway to Automated Health Data Acquisition System''. Workshop on Interactive Systems in Healthcare at Annual Symposium of the American Medical Informatics Association (AMIA), Washington, DC, USA, October 2011. 
+    [Online]. Available: \urlstyle{same}\url{https://wish2011.wordpress.com/accepted-papers/}
+
+    
+   \end{comment}
+
+
+
+
+\begin{comment}
+\section{PROGRAM COMMITTEE MEMBER}
+{\sl Conference}
+%\vspace{2pt}
+\begin{itemize} \itemsep -2pt
+\item The Fourth AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2016), October 30 - November 3, 2016, Austin, TX, USA
+ \end{itemize}
+ \end{comment}
+
+\section{ORGANIZING COMMITTEE MEMBER}
+{\sl Conference}
+%\vspace{2pt}
+\begin{itemize} \itemsep -2pt
+\item Workshop on Computational Intelligence (WCI 2012), Dhaka, Bangladesh
+\item Workshop on Algorithm and Computation (WALCOM 2012), Dhaka, Bangladesh
+\item Workshop on Graph Drawing and Graph Algorithm (GDGA 2013), Dhaka, Bangladesh
+\item Workshop on Women Empowerment through ICT: Higher
+Studies, Research, and Career (WE-ICT 2014), Dhaka, Bangladesh
+
+ \end{itemize} 
+
+
+\section{REVIEWER}
+{\sl Conference}
+%\vspace{2pt}
+\begin{itemize} \itemsep -2pt
+\item The Fourth AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2016)
+ \end{itemize}
+
+\begin{comment}
+\section{SELECTED PROJECTS}
+{\sl Graduate Research Projects}
+\vspace{2pt}
+\begin{itemize} \itemsep -2pt
+\item \textbf{Semi-Supervised Deep Learning for Deep-NLP: Clinical Information Extraction from Cancer Pathology Reports} \\
+- Developed a semi-supervised graph-based regularization deep learning model that leverages both labeled and unlabeled data points \\
+- Extracted clinical information from cancer pathology reports for automatic cancer type and site detection \\ 
+- Pre-processed cancer pathology reports by performing sentence boundary disambiguation using Maximum Entropy and Bi-directional LSTM deep model 
+
+\item \textbf{Literature Review on Neural Information Retrieval} \\
+- Surveyed the current landscape of Neural Information Retrieval (IR) research paying special attention to the use of learned representations of queries and documents (i.e., neural embedding)\\
+- Accepted as a journal paper in Information Retrieval Journal, Springer
+
+\item \textbf{Answer Selection in Non-Factoid Question Answering using Deep Learning}\\
+- Applied Convolutional Neural Network (CNN) on Non-factoid Question Answering\\
+- Leveraged word embedding for semantic representation\\
+- Performed answer selection using similarity measure between the semantic vector of questions and answers
+ 
+\item \textbf{Open Source Machine Learning Package} \\ 
+- Developed several supervised, semi-supervised, unsupervised machine learning algorithms for working with text data analysis\\ 
+- Designed using full-scale object-oriented fashion and support extension for several base algorithms
+%- Development is still ongoing and open to anyone for collaboration on Github \urlstyle{same}\url{https://github.com/Linda-sunshine/IR_Base}
+
+\item \textbf{Topic Modeling for Unstructured Text Document} \\
+- Developed a Hidden Markov Model based topic model which captures the transition of users' sentiment on a sentence by sentence basis \\ 
+- Crawled dataset of customer reviews from Amazon.com and NewEgg.com and applied our model\\
+- Accepted as a full research paper in the 25th International World Wide Web conference (WWW 2016), Canada, 2016
+
+\item \textbf{Sentiment Analysis on IMDB Movie Reviews} \\
+- Developed a multi-class sentiment classification algorithm for labeling the sentiment label of IMDB movie review \\
+%- Language and framework used in this project are Python, Google Word2Vec, JSON and Sci-kit\\ 
+%- Successfully participated in Kaggle Competition - \textit{Bag of Words Meets Bags of Popcorn} \urlstyle{same}\url{https://www.kaggle.com/c/word2vec-nlp-tutorial/leaderboard}
+
+\item \textbf{Personalized Job Matching} \\
+- Developed multiple crawlers for crawling job-postings from Google, Facebook, Microsoft, and IBM \\ 
+- Indexed 1GB of crawled data using Apache Lucene \\
+- Designed a rank model based on indexed results and developed an interface to show the search results for a given search query
+
+\end{itemize}
+
+
+{\sl Undergraduate Software Projects}
+\vspace{2pt}
+\begin{itemize} \itemsep -2pt
+ \item \textbf{Social Bookmarking  Website} - Developed a website for online bookmarking/ voting for other websites.  The website was developed in PHP  and MySQL server. CSS and HTML have been used for user interface
+ \item \textbf{Automated  System  for  Buying  House} - Designed  the  use-case model, collaboration and class diagram, sequence diagram and input-output of a buying  house system using UML
+ \item \textbf {Photo  Viewer} - Developed a simple  photo  viewing  software  using  JAVA  which has the ability  to  view  various formats
+of picture ( i.e.: jpg, jpeg, tiff, bmp etc.)   
+ \item \textbf{Data Link Layer Implementation} - Implemented the sliding window protocol of Data Link Layer (one of the OSI layers) using Java
+ \item \textbf{Kernel of an Operating System} - Developed the kernel and the shell of an operating system as part of a larger operating system (OS) using educational OS named NACHOS. The kernel had an architecture similar to UNIX and was developed using C language
+\end{itemize}
+\vspace{2pt}
+{\sl Undergraduate Hardware Projects}
+\vspace{2pt}
+\begin{itemize} \itemsep -2pt
+ \item \textbf{4-bit  Digital  Computer} - Designed  and  developed  a  digital  computer  capable  of  executing  $28$
+instructions from the  Intel  80x86 processor family.  Its  main  features  include a shared  bus, a microprogrammed control unit and separate data and instruction RAM
+ \item \textbf{Modified Booth's Multiplier} - Designed and implemented a modified version of Booth’s
+multiplier which was capable of multiplying ten bits multiplication in 2's complement form
+
+\end{itemize}
+
+
+\section{RELATED COURSEWORKS}
+\vspace{8pt}
+\begin{tabular}{l l}
+     \textbf{Graduate}& \textbf{Undergraduate} \\
+     Information Retrieval & Discrete Mathematics \\
+     Text Mining & Algorithms \\
+     Advanced Algorithms &  Artificial Intelligence\\
+     High Dimensional Data Management & Mathematical Analysis for Computer Science\\
+     Neural Networks & \\
+     Data Science in Software Engineering & \\
+     Theory of Computation & \\
+\end{tabular}
+\end{comment}
+
+\section{TEACHING EXPERIENCE}
+{\sl Graduate Teaching Assistant} \hfill        Fall 2014, Spring 2015, Fall 2015, Spring 2016\\
+Department of Computer Science\\
+University of Virginia\\
+\begin{itemize} \itemsep -2pt % reduce space between items
+   \item CS 4750 (Database Design): Spring 2016,  Course Instructor: Prof. Nada Basit
+   \item CS 2102 (Discrete Mathematics) Spring 2016, Course Instructor: Prof. David Edwards
+   \item CS 4501 (Information Retrieval): Fall 2015, Course Instructor: Prof. Hongning Wang 
+   \item CS 3102 (Theory of Computation): Fall 2015, Course Instructor: Prof. Worthy Martin
+   \item CS 3102 (Theory of Computation): Spring 2015, Course Instructor: Prof. Gabriel Robins
+   \item CS 3102 (Theory of Computation): Fall 2014, Course Instructor: Prof. Worthy Martin
+   \item CS 4810 (Computer Graphics): Fall 2014 Course Instructor: Prof. Jason Lawrence
+\end{itemize}
+
+{\sl Assistant Professor} \hfill    February 2014 - August 2014\\
+Department of Computer Science \& Engineering\\
+Bangladesh University of Engineering \& Technology \\
+\begin{comment}
+\begin{itemize} \itemsep -2pt % reduce space between items
+   \item CSE 307 (Software Engineering \& Information System Design)
+\end{itemize}
+\end{comment}
+
+{\sl Lecturer} \hfill    March 2011 - January 2014\\
+Department of Computer Science \& Engineering\\
+Bangladesh University of Engineering \& Technology \\
+\begin{comment}
+\begin{itemize} \itemsep -2pt % reduce space between items
+   \item CSE 105 (Structured Programming Language)
+   \item CSE 201 (Object Oriented Programming Language)
+\end{itemize}
+\end{comment}
+
+\begin{comment}
+
+{\sl Adjunct Faculty} \hfill August 2011 - July 2014\\
+Department of Computer Science \& Engineering\\
+Ahsanullah University of Science and Technology, Dhaka, Bangladesh\\
+
+
+{\sl Adjunct Faculty} \hfill August 2011 - July 2014\\
+Department of Computer Science \& Engineering\\
+University of Liberal Arts Bangladesh, Dhaka, Bangladesh\\
+
+{\sl Adjunct Faculty} \hfill February 2013 - July 2014\\
+Department of Computer Science \& Engineering\\
+East West University, Dhaka, Bangladesh\\
+
+{\sl Adjunct Faculty} \hfill February 2012 - November 2012\\
+Department of Computer Science \& Engineering\\
+State University of Bangladesh, Dhaka, Bangladesh\\
+
+\vspace{0.2in}
+\section{SOFTWARE ENGINEER}
+\vspace{8pt}
+{\sl Quantitative Software Developer, Part-time} \hfill November 2010 - July 2014\\
+Stochastic Logic Limited, Dhaka, Bangladesh\\
+\end{comment}
+
+
+\section{HONORS}
+\begin{itemize} \itemsep -2pt
+\begin{comment}
+ \item Full tuition waiver and graduate assistantship, School of Information, University of Texas at Austin \hfill 2016--2021
+ 
+ \item Full tuition waiver and a graduate assistantship, Department of Computer Science, Texas A \& M University (not availed) \hfill 2016--2021
+ 
+ \item Full tuition waiver and a graduate assistantship, Department of Computer Science, the University of Texas at Dallas  (not availed)  \hfill 2016--2021
+ 
+ 
+ \item Full tuition waiver and a graduate assistantship, Department of Computer Science, the University of Texas at Arlington  (not availed)  \hfill 2016--2012
+ 
+ 
+ \item Full tuition waiver and a graduate assistantship, Department of Computer Science, the University of Texas at San Antonio (not availed) \hfill 2016--2021
+ 
+ \item Full tuition waiver and a graduate assistantship, Department of Computer Science, University of Virginia \hfill 2014--2016
+ 
+ \item Full tuition waiver and a graduate assistantship, Department of Computer Science, Stony Brook University, New York (not availed) \hfill 2014--2019
+ 
+ \item Full tuition waiver and a graduate assistantship, Department of Computer Science, University of British Columbia, Canada (not availed) \hfill 2014--2019
+ 
+ \item Full tuition waiver and a graduate assistantship, Department of Computer Science, University of Waterloo, Canada (not availed) \hfill 2014--2019
+
+\end{comment}
+ 
+ 
+ \item Full scholarship to attend a workshop on research frontier in Computing from School
+of Computing (SoC), National University of Singapore (NUS), Singapore.  May 2012
+  \item  Awarded with a scholarship from Institute of International Education, New York, USA sponsored
+by AIG Foundation \hfill 2006--2011
+\item  Deans list award for academic excellence from Bangladesh University of Engineering \& Technology\hfill
+2006--2011
+\item  University scholarship for academic excellence from Bangladesh University of Engineering \& Technology \hfill 2006--2011
+\item Award of excellence from Nazrul Islam Hall, Bangladesh University of Engineering \& Technology \hfill 2011
+\end{itemize}
+
+\begin{comment}
+
+\section{TECHNICAL SKILLS}
+%\begin{itemize} \itemsep -2pt
+\textbf{Programming language}: C, C++, Java, SQL, Python, Scala, \LaTeX, \TeX \\
+\textbf{Scientific Computing}: Matlab, WEKA \\
+\textbf{Open Source Packages}: Apache Lucene, Apache OpenNLP \\
+\textbf{Big Data Tools}: Elasticsearch, Apache Spark, Spark-SQL, Hive\\
+\textbf{Web Programming}: HTML, CSS, PHP, Jade, JavaScript, Node.js \\
+\textbf{Database Management System}: Oracle, MySQL, MongoDB, JSON \\
+\textbf{Data Mining/Machine Learning}: Naive Bayes, Logistic Regression, Linear Regression, Neural Networks, Support Vector Machine, K-Nearest Neighbour, K-means, Recommendation Systems, Expectation Maximization (EM), Hidden Markov Model, Natural Language Processing (NLP) \\
+\textbf{Text mining}: Language Model, Probabilistic Latent Semantic Analysis (pLSA), Latent Dirichlet Allocation (LDA), Hidden Topic Markov Model (HTMM)\\
+\textbf{Version Control}: Git \\
+\textbf{Project Build Tools:} Apache Maven, SBT \\
+\textbf{Operating Systems}: Microsoft Windows, Linux
+\end{comment}
+
+
+
+%\vspace{0.2in}
+\begin{comment}
+\section{COURSEWORK}
+\textbf{Graduate}
+\begin{itemize} \itemsep -2pt
+\item Information Retrieval 
+\item Text Mining
+\item High Dimensional Data Management
+\item Data Mining in Software Engineering
+%\item Database System
+\item Big Data in Health
+\item Advanced Algorithm 
+\item Meta-Heuristics 
+%\item Software Engineering
+\end{itemize}
+
+
+\textbf{Undergraduate}
+\begin{itemize} \itemsep -2pt
+\item Operating Systems 
+\item Artificial Intelligence + Practicum 
+\item Functional Programming 
+\item Computer Graphics + Practicum 
+\end{itemize}
+\end{comment}
+
+
+\vspace{0.2in}
+
+
+%\newpage
+\section{REFERENCES}
+
+\vspace{0.2in}
+\begin{tabular}{ l l } 
+Dr. Matthew Lease & Dr. Mucahid Kutlu\\
+Associate Professor & Assistant Professor \\
+School of Information & Department of Computer Engineering \\
+University of Texas at Austin & TOBB Economy and Technology University \\
+{E-mail: ml@utexas.edu } & {E-mail: m.kutlu@etu.edu.tr} \\
+\urlstyle{same}\url{https://www.ischool.utexas.edu/~ml/} & \urlstyle{same}\url{https://www.etu.edu.tr/en/}\\
+& \\
+Sunil Thulasidasan & Dr. Hongning Wang\\
+Scientist & Assistant Professor \\
+Information Sciences Group & Department of Computer Science \\
+Los Alamos National Laboratory &  University of Virginia \\
+
+{E-mail: sunil@lanl.gov} & {E-mail: hw5x@virginia.edu} \\
+\urlstyle{same}\url{http://public.lanl.gov/sunil/} & \urlstyle{same}\url{http://www.cs.virginia.edu/~hw5x/}\\
+\end{tabular}
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+

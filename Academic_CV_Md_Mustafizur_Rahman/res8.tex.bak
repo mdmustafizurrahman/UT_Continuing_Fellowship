@@ -1,0 +1,192 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headsep}{24pt}  % space between header and text
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+\rhead{ {\it Md Mustafizur Rahman }\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-0.5in % start text higher on the page
+
+\begin{document}
+\thispagestyle{empty} % this page has no header
+\name{Md Mustafizur Rahman\\[12pt]}% the \\[12pt] adds a blank line after name
+
+\address{{\bf School Address} \\ Department of Computer Science \\
+  University of Virginia \\   Charlottesville, VA 22901 \\ Phone: (434) 466-6715 \\ Email: mr4xb@virginia.edu} 
+
+\address{{\bf Permanent Address} \\ 304 Peyton Ct. \\ Copeley Hill\\ Charlottesville, VA 22903\\
+  Phone: (434) 466-6715 }
+
+
+\begin{resume}
+
+\section{OBJECTIVE}
+A  position  in  Personnel  Administration  utilizing  skills  in
+recruiting, training and compensation.
+
+\section{Research Interests}
+Pattern matching, data mining in social network, text mining
+
+
+\section{EDUCATION}
+{\sl Ph.D} in Computer Science\\
+University of Virginia, VA 22903 \hspace{0.2in}   \hfill \hfill Fall, 2014 - \\
+Advisor - Dr. Hongning Wang
+
+{\sl Master of Science} in Computer Science \& Engineering \\
+Bangladesh University of Engineering \& Technology, Dhaka \hspace{0.2in}  GPA 3.83 \hfill August 2013 \\
+Thesis - Forecasting Time Series - An Ensemble based approach\\
+Advisor - Dr. Md. Monirul Islam
+
+{\sl Bachelor of Science} in Computer Science \& Engineering \\
+Bangladesh University of Engineering \& Technology, Dhaka \hspace{0.2in}  GPA 3.95 \hfill February 2011 \\
+Thesis- Detecting Cuts in Wireless Sensor Network \\
+Advisor - Dr. Masud Hasan
+
+\vspace{0.2in}
+\section{RESEARCH EXPERIENCE}
+\vspace{8pt}
+{\sl Graduate Research Assistant} \hfill        December, 2014 -  \\
+Department of Computer Science, University of Virginia\\
+Advisor - Dr. Hongning Wang \\
+Topic - Computational User Behavior Modelling
+
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Implemented several probabilistic topic models including 2-topic mixture model, probabilistic latent semantic analysis(PLSA), hidden topic markov model (HTMM), logistic regression in HTMM etc.
+   \item Developing a novel scheme to label unstructured corpus data using some prior knowledge from the domain
+\end{itemize}
+
+{\sl  Graduate Researcher}  \hfill  April 2012 - August 2013 \\ 
+Department of Computer Science \& Engineering, Bangladesh University of Engineering \& Technology\\
+Advisor - Dr. Md. Monirul Islam \\
+Topic - Ensemble based approach for time series forecasting
+ \begin{itemize} \itemsep -2pt
+  \item  Developed a novel layered ensemble architecture for time series forecasting
+\end{itemize} \vspace{-6pt}
+
+\newpage
+\section{SELECTED PUBLICATIONS}
+{\sl Book Chapter}
+\vspace{15pt}
+\begin{itemize}
+\item Abdus Salam Azad, Md. Kamrul Hasan, M. Arif Imtiazur Rahman, {\bf Md. Mustafizur Rahman}, and Nashid Shahriar, Exploring the Behavior and Changing Trends of Rainfall and Temperature Using Statistical Computing Techniques. Computational Intelligence Techniques in Earth and Environmental Sciences, Springer, DOI 10.1007/978-94-0:pages: 53-78, 2014
+\end{itemize}
+
+
+{\sl Journal}
+\vspace{15pt}
+\begin{itemize}
+ \item {\bf Md. Mustafizur Rahman}, S. M. Ferdous, Syed Ishtiaque Ahmed, and Anika Anwar, ``Speech Development of Autistic Children by Interactive Computer Games,'' {\it Interactive Technology and Smart Education (ITSE), Emerald}, vol. 8, no. 4, pp. 208 - 223, 2011.[Online].\\ Available: {http://dx.doi.org/10.1108/17415651111189450}
+
+   
+\end{itemize}
+
+
+{\sl Conference}
+\vspace{15pt}
+\begin{itemize}
+  
+    \item {\bf Md. Mustafizur Rahman}, S. K. K. Santu, Md. Monirul Islam, and Kazuyuki Murase, ``Forecasting Time Series - A Layered Ensemble Architecture,'' in the proceedings of International Joint Conference on Neural Networks (IJCNN 2014), IEEE, Beijing, China, 2014. [Online]. Available: {http://dx.doi.org/10.1109/IJCNN.2014.6889682}
+   \item S. K. K. Santu, {\bf Md. Mustafizur Rahman}, Md. Monirul Islam, and Kazuyuki Murase, ``Towards better generalization in Pittsburgh Learning Classifier Systems,'' in the proceedings of IEEE World Congress on Computational Intelligence (CEC 2014), IEEE, Beijing, China, 2014. [Online]. Available:{http://dx.doi.org/10.1109/CEC.2014.6900388}
+
+    \item  Asif Salekin, {\bf Md. Mustafizur Rahman} and Shihab Hasan Chowdhury,
+    ``Pattern matching in time series using combination of neural  network and
+    rule based approach,'' in the  proceedings  of  The  7th International
+    Conference  on  Electrical  \& Computer Engineering (ICECE 2012)  Dhaka,
+    Bangladesh, December 2012. [Online]. Available: {http://dx.doi.org/10.1109/ICECE.2012.6471591}
+
+    \item  Asif Salekin, {\bf Md. Mustafizur Rahman}, and Raihanul Islam,
+    ``Composite Pattern Matching in Time Series,'' in the proceedings of The
+    15th International Conference on Computer \& Information Technology (ICCIT 2012),
+    Chittagong, Bangladesh, 2012. [Online].\\Available: {http://dx.doi.org/10.1109/ICCITechn.2012.6509784}
+
+
+    \item Raihanul Islam, {\bf Md. Mustafizur Rahman}, Asif Salekin, Shihab Hasan Chowdhury, and Samiul Alam Anik, ``A
+    Novel Clustering-Based Ensemble Classification Model for Block Learning,''
+    in the proceedings of The 2nd The International Conference on Pattern
+    Recognition Applications and Methods (ICPRAM 2013), Barcelona, Spain, 2013.
+    
+	\item S.  M.  Ferdous,  Anindya  Das,  M.  Sohel  Rahman  and  {\bf Md.
+    Mustafizur  Rahman}, ``An Ant Colony Optimization approach to solve the
+    Minimum  String Cover Problem," in the proceedings of IEEE ICIEV 2012
+    endorsed by International Association for Pattern Recognition (IAPR), Dhaka,
+    Bangladesh, May 2012.[Online].\\ Available: {http://dx.doi.org/10.1109/ICIEV.2012.6317422}
+    
+    \item Nashid Shahriar, Mahfuza Sharmin, Reaz Ahmed, {\bf Md. Mustafizur
+	Rahman}, Raouf  Boutaba  and  Bertrand  Mathieu, ``Diurnal Availability for Peer-to-Peer
+	Systems,'' in  the  proceedings  of IEEE  CCNC,  Las Vegas, Nevada, USA,
+	January 2012, IEEE Communications Society Press. [Online].\\ Available: {http://dx.doi.org/10.1109/CCNC.2012.6181140}
+
+    \item  K.M.A. Solaiman, {\bf Md. Mustafizur Rahman}, and Nashid Shahriar,
+    ``AVRA Bangladesh collection, analysis \& visualization of road accident
+    data in Bangladesh,'' in the proceedings of International Conference on
+    Informatics, Electronics \& Vision (ICIEV), IEEE, Dhaka, Bangladesh, pages 1-6, 2013. [Online]. Available: {http://dx.doi.org/10.1109/ICIEV.2013.6572632}
+
+   \end{itemize}
+
+
+\vspace{0.2in}
+
+\section{TECHNICAL SKILLS}
+\begin{itemize}
+\item Programming language: C, C++, Visual C++, Java, Prolog, Assembly Language (Intel 80x86, MIPS), UNIX shell scripting, PL/SQL, OpenGL,MATLAB, LEX, YACC, \LaTeX, \TeX.
+\item Web Programming: HTML,CSS, ASP.NET, PHP, Javascript.
+\item Programming Environment: Borland JBuilder 11, J2ME, Microsoft Visual Studio .NET, Visual Prolog 6.1, GCC, Netbeans.
+\item Modeling: UML, E-R Diagram, DFD.
+\item Modeling Tools: SmartDraw, Microsoft Project.
+\item Database Management System: Oracle 9i, MySQL, Microsoft Access.
+\item Simulation: Circuit Maker, PSPICE,Quartus.
+\item Operating Systems: Microsoft Windows XP/2000, Linux.
+
+\end{itemize}
+
+\vspace{0.2in}
+\section{\centerline{MEMBERSHIPS}}
+\vspace{-5pt} % reduce space between section title and contents
+\begin{center}
+      American Psychological Association, Student Affiliate \\
+      Vice President of Activities, RPI Weight-training Club \\
+      Chairperson, Entertainment Committee, Utica College \\
+      Latin-American Student Union, Utica College \\
+      Member All-American Nautilus
+ \end{center}
+ \vspace{0.2in}
+\section{\centerline{HONORS}}
+\vspace{-5pt}
+\begin{center}
+  Full tuition assistantship, Rensselaer Polytechnic Institute,  \\
+                  PSI CHI National Honor Society \\
+              PHI THETA KAPPA National Honor Society
+\end{center}
+
+\vspace{0.2in}
+\section{\centerline{INTERESTS}}
+\vspace{-5pt}
+\begin{center}
+Classical piano, Jazz,  bodybuilding/aerobic  exercise,  cooking,
+                             dancing
+\end{center}
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
